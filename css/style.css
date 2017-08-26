@@ -1,122 +1,203 @@
-@charset "utf-8";li,textarea {
-    vertical-align: top
+@charset "utf-8";
+
+/* global */
+li,
+textarea {
+  vertical-align: top;
 }
 
-article,aside,body,details,figcaption,figure,footer,header,hgroup,html,iframe,menu,nav,section {
-    display: block
+article,
+aside,
+body,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+html,
+iframe,
+menu,
+nav,
+section {
+  display: block;
 }
 
 html {
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: transparent
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
 }
 
-article,aside,blockquote,body,button,code,dd,details,dl,dt,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,hr,input,legend,li,menu,nav,ol,p,pre,section,td,textarea,th,ul {
-    margin: 0;
-    padding: 0
+article,
+aside,
+blockquote,
+body,
+button,
+code,
+dd,
+details,
+dl,
+dt,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+hr,
+input,
+legend,
+li,
+menu,
+nav,
+ol,
+p,
+pre,
+section,
+td,
+textarea,
+th,
+ul {
+  margin: 0;
+  padding: 0;
 }
 
-audio,canvas,video {
-    display: inline-block;
-    *display: inline;
-    *zoom:1}
-
-body,button,input,select,textarea {
-    font: 12px/1.5 'PingFang SC','microsoft yahei',tahoma,arial,'helvetica neue','hiragino sans gb',sans-serif
+body,
+button,
+input,
+select,
+textarea {
+  font: 12px/1.5 'PingFang SC', 'microsoft yahei', tahoma, arial,
+    'helvetica neue', 'hiragino sans gb', sans-serif;
 }
 
 html[lang=en] body {
-    font: 12px/1.5 tahoma,arial,'helvetica neue','hiragino sans gb',sans-serif
+  font: 12px/1.5 tahoma, arial, 'helvetica neue', 'hiragino sans gb', sans-serif;
 }
 
-h1,h2,h3,h4,h5,h6 {
-    font-size: 1em
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 1em;
 }
 
 a:active {
-    background-color: transparent
+  background-color: transparent;
 }
 
-a:active,a:hover,a:link,a:visited {
-    outline: 0;
-    *star: expression(this.onFocus=this.blur())
+a:active,
+a:hover,
+a:link,
+a:visited {
+  outline: 0;
+  *star: expression(this.onFocus=this.blur());
 }
 
-b,cite,code,em,i,small,th {
-    font-size: 1em;
-    font-style: normal;
-    font-weight: 500
+b,
+cite,
+code,
+em,
+i,
+small,
+th {
+  font-size: 1em;
+  font-style: normal;
+  font-weight: 500;
 }
 
-button,input,select,textarea {
-    font-size: 1em;
-    box-sizing: content-box
+button,
+input,
+select,
+textarea {
+  font-size: 1em;
+  box-sizing: content-box;
 }
 
-button,input[type=button],input[type=submit] {
-    cursor: pointer
+button,
+input[type=button],
+input[type=submit] {
+  cursor: pointer;
 }
 
-button[disabled],input[disabled] {
-    cursor: default
+button[disabled],
+input[disabled] {
+  cursor: default;
 }
 
-button::-moz-focus-inner,input::-moz-focus-inner {
-    border: 0;
-    padding: 0
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
 }
 
 textarea {
-    overflow: auto
+  overflow: auto;
 }
 
 table {
-    border-collapse: collapse;
-    border-spacing: 0
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
-fieldset,iframe,img {
-    border: 0
+fieldset,
+iframe,
+img {
+  border: 0;
 }
 
 img {
-    display: inline-block;
-    vertical-align: bottom;
-    -ms-interpolation-mode: bicubic
+  display: inline-block;
+  vertical-align: bottom;
+  -ms-interpolation-mode: bicubic;
 }
 
-ol,ul {
-    list-style: none
+ol,
+ul {
+  list-style: none;
 }
 
-q:after,q:before {
-    content: ''
+q:after,
+q:before {
+  content: '';
 }
 
 .clearfix:after {
-    clear: both;
-    content: ".";
-    display: block;
-    height: 0;
-    line-height: 0;
-    font-size: 0;
-    visibility: hidden
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  line-height: 0;
+  font-size: 0;
+  visibility: hidden;
 }
 
-.head_wrap,.head_wrap_expand {
-    height: 84px;
-    top: 0
+.head_wrap,
+.head_wrap_expand {
+  height: 84px;
+  top: 0;
 }
 
 .clearfix {
-    zoom:1}
+  zoom: 1;
+}
 
-body,html {
-    background: #fff;
-    width: 100%
+body,
+html {
+  background: #fff;
+  width: 100%;
 }
 
 .wrap {
-    overflow: hidden
+  overflow: hidden;
 }
