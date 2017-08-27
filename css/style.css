@@ -1,6 +1,7 @@
 @charset "utf-8";
 
-/* global */
+/* Global Reset */
+
 li,
 textarea {
   vertical-align: top;
@@ -75,8 +76,7 @@ button,
 input,
 select,
 textarea {
-  font: 12px/1.5 'PingFang SC', 'microsoft yahei', tahoma, arial,
-    'helvetica neue', 'hiragino sans gb', sans-serif;
+  font: 12px/1.5 'PingFang SC', 'microsoft yahei', tahoma, arial, 'helvetica neue', 'hiragino sans gb', sans-serif;
 }
 
 html[lang=en] body {
@@ -101,7 +101,7 @@ a:hover,
 a:link,
 a:visited {
   outline: 0;
-  *star: expression(this.onFocus=this.blur());
+  /* *star: expression(this.onFocus=this.blur()); */
 }
 
 b,
@@ -182,16 +182,6 @@ q:before {
   visibility: hidden;
 }
 
-.head_wrap,
-.head_wrap_expand {
-  height: 84px;
-  top: 0;
-}
-
-.clearfix {
-  zoom: 1;
-}
-
 body,
 html {
   background: #fff;
@@ -199,5 +189,27 @@ html {
 }
 
 .wrap {
+  display: flex;
   overflow: hidden;
 }
+
+
+/* Navbar */
+nav a {
+  display: block;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+.nav_wrap {
+  justify-content: space-between;
+}
+
+.nav_logo {
+  background: url("../image/pic_logo.png") no-repeat;
+} 
+
+
+/* Banner */
