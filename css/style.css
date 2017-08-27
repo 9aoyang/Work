@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-/* Global Reset */
+/* Global && Reset */
 
 li,
 textarea {
@@ -214,6 +214,7 @@ nav ul li {
 
 
 /* Advantage */
+
 .advantage_wrap {
   flex-wrap: wrap;
 }
@@ -228,8 +229,31 @@ nav ul li {
 }
 
 .advantage_row:nth-of-type(3) {
-  justify-content: space-between;
+  justify-content: center;
 }
+
+
+
+/* Data */
+.data_wrap {
+  flex-wrap: wrap;
+}
+
+.data_row {
+  display: flex;
+  flex-basis: 100%
+}
+
+.data_row:nth-of-type(1) {
+  justify-content: center;
+}
+
+.data_row:nth-of-type(2) {
+  justify-content: space-around;
+}
+
+
+
 
 
 
