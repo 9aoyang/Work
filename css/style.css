@@ -76,7 +76,8 @@ button,
 input,
 select,
 textarea {
-  font: 12px/1.5 'PingFang SC', 'microsoft yahei', tahoma, arial, 'helvetica neue', 'hiragino sans gb', sans-serif;
+  font: 12px/1.5 'PingFang SC', 'microsoft yahei', tahoma, arial,
+    'helvetica neue', 'hiragino sans gb', sans-serif;
 }
 
 html[lang=en] body {
@@ -190,26 +191,47 @@ html {
 
 .wrap {
   display: flex;
-  overflow: hidden;
 }
 
-
 /* Navbar */
-nav a {
-  display: block;
+nav {
+  justify-content: space-between;
 }
 
 nav ul li {
   display: inline-block;
 }
 
-.nav_wrap {
-  justify-content: space-between;
-}
-
-.nav_logo {
-  background: url("../image/pic_logo.png") no-repeat;
-} 
 
 
 /* Banner */
+.banner {
+  background-image: url("../image/banner.png");
+  background-size: 100% 100%;
+  height: 512px;
+}
+
+
+
+/* Advantage */
+.advantage_wrap {
+  flex-wrap: wrap;
+}
+
+.advantage_row {
+  display: flex;
+  flex-basis: 100%;
+}
+
+.advantage_row:nth-of-type(2) {
+  justify-content: center;
+}
+
+.advantage_row:nth-of-type(3) {
+  justify-content: space-between;
+}
+
+
+
+
+ 
