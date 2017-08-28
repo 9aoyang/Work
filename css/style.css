@@ -352,7 +352,7 @@ section.contact_wrap {
 .contact_row {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .contact_row:nth-of-type(1) {
@@ -365,17 +365,23 @@ section.contact_wrap {
 }
 
 .contact_row:nth-of-type(2) {
-  display: block;
   margin-right: 20px;
 }
 
-.form_element {
+.form_element > input{
+  display: block;
   width: 342px;
   height: 36px;
 }
 
 .form_element textarea {
+  width: 344px;
   height: 120px;
+}
+
+.form_element button {
+  height: 32px;
+  width: 175px;
 }
 
 
@@ -389,8 +395,14 @@ section.contact_wrap {
   flex-basis: 100%;
   justify-content: space-around;
 }
-
+.footer_row:nth-of-type(1) {
+  justify-content: center;
+}
 .footer_row:nth-of-type(1) figure img {
   height: 136px;
   width: 136px;
+}
+
+.footer_row:nth-of-type(1) figure {
+  text-align: center; 
 }
