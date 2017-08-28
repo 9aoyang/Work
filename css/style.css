@@ -340,6 +340,18 @@ section.contact_wrap{
 
 
 
+/* Footer */
+.footer_wrap {
+  flex-wrap: wrap;
+}
+
+.footer_row {
+  display: flex;
+  flex-basis: 100%;
+  justify-content: space-around;
+}
+
+
 
 
 
