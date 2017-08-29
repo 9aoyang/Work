@@ -203,7 +203,8 @@ footer {
   flex: auto;
   justify-content: space-between;
   margin: 0;
-  background-color: #080808;
+  background-color: rgba(0, 0, 0, 1);
+  ;
   z-index: 9999;
   overflow: hidden;
   transition: height 0.3s;
@@ -652,6 +653,7 @@ section.parameter_wrap {
 
 .form_element button {
   background-color: #41A6C1;
+  border: none;
   color: #ffffff;
   margin-top: 28px;
   height: 32px;
@@ -662,18 +664,102 @@ section.parameter_wrap {
 .partner_wrap {
   flex-wrap: nowrap;
   flex: auto;
+  color: #646464;
 }
 
-.partner_row {
-  margin: 20px 0 48px 0;
+.partner_row {;
+  margin-top: 20px;
+  margin-bottom: 22px;
 }
 
-.join div ul > li {
-  
+.partner_row:nth-of-type(1) {
+  margin-right: 24px;
 }
 
-.contact figure img {
-  /* width: 840px; */
+.join h4 {
+  color: #41A6C1;
+  font-size: 16px;
+}
+
+.join ul {
+  font-size: 14px;
+  border: 0.5px solid rgba(0, 0, 0, .4);
+  width: 342;
+  margin: 28px 0;
+}
+
+.join ul > li {
+  background-image: url("../image/list-dot.png");
+  background-repeat: no-repeat;
+  background-position: left center;
+  position: relative;
+  padding-left: 34px;
+  height: 42px;
+  line-height: 42px;
+  border-bottom: 0.5px dashed rgba(0, 0, 0, .4);
+}
+
+.join ul > li:last-child {
+  border-bottom: none;
+}
+
+.join ul > li:hover,
+.join ul > li:focus,
+.join ul > li:active {
+  border-right: 6px solid #41A6C1;  
+}
+
+.join a:link,
+.join a:visited {
+  color: #313135;
+}
+
+.join a:hover,
+.join a:focus,
+.jpin a:active {
+  color: #41A6C1;
+}
+
+.contact h4 {
+  color: #41A6C1;
+  font-size: 16px;
+}
+
+.contact small {
+  display: inline-block;
+  color: #bbb;
+  margin: 5px 0 25px 0;
+}
+
+.partner_row:nth-of-type(2) figure img {
+  width: 100%;
+  height: auto;
+}
+
+.partner_row:nth-of-type(2) figure figcaption {
+  background-color: #eee;
+  margin-top: 20px;
+}
+
+.partner_row:nth-of-type(2) figure figcaption p {
+  font-size: 1.4em;
+  padding: 3%;
+  text-align: justify;
+  text-justify: auto;
+}
+
+.partner_row:nth-of-type(2) h3 {
+  color: #41A6C1;
+  font-size: 22px;
+  margin: 32px 0 20px 0;
+}
+
+.partner_row:nth-of-type(2) dl {
+  font-size: 1.4em;
+}
+
+.partner_row:nth-of-type(2) dl > dd {
+  margin-bottom: 26px;
 }
 
 /* Footer */
