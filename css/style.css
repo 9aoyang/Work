@@ -637,21 +637,17 @@ section.parameter_wrap {
   width: 175px;
 }
 
-*/
 /* Footer */
-
 .footer_wrap {
   flex-wrap: wrap;
   flex: auto;
   flex-direction: column;
 }
 
-/* .footer_row {
-  display: flex;
-  flex-wrap: wrap;
-  flex: auto;
-  justify-content: center;
-  align-items: center;
+.footer_row {
+   display: flex;
+   justify-content: center;
+
 }
 
 .footer_row:nth-of-type(1) {
