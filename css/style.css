@@ -183,14 +183,6 @@ footer {
   margin: 0 12%;
 }
 
-.body_wrap {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  flex: auto;
-}
-
-
 /* Navbar */
 
 .wrap {
@@ -287,6 +279,7 @@ footer {
   margin-top: 72px;
   margin-bottom: 56px;
   margin: 72px auto 56px auto;
+  justify-content: center;
 }
 
 .cut_text {
@@ -765,7 +758,6 @@ section.parameter_wrap {
 /* Footer */
 
 .footer_wrap {
-  flex-wrap: wrap;
   flex: auto;
   flex-direction: column;
   background-color: #eeeeee;
