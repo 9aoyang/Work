@@ -667,7 +667,7 @@ section.parameter_wrap {
   color: #646464;
 }
 
-.partner_row {;
+.partner_row {
   margin-top: 20px;
   margin-bottom: 22px;
 }
@@ -774,16 +774,14 @@ section.parameter_wrap {
 
 .footer_row {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+  text-align: center;
 }
 
 .footer_row:nth-of-type(1) {
   justify-content: space-around;
   margin: 0 20%;
-}
-
-.footer_row:nth-of-type(1) figure {
-  text-align: center;
 }
 
 .footer_row:nth-of-type(1) figure img {
