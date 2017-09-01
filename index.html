@@ -29,7 +29,7 @@
     <![endif]-->
 
     <!-- Navbar -->
-    <nav class="wrap nav_wrap">
+    <nav class="wrap nav_wrap wow animated fadeIn">
         <a class="logo" href="#">Logo</a>
         <ul class="csscd0cd449318c50">
             <li>
@@ -66,15 +66,15 @@
     </nav>
 
     <!-- Banner -->
-    <header class="wrap banner_wrap">
+    <header class="wrap banner_wrap wow animated fadeIn">
         <div>
-            <h2 class="csscd0daf66f18c50">科技智能未来</h2>
-            <h1 class="csscd0cd449318c50">威尔汉森智能指纹锁</h1>
-            <h4 class="csscd0daf66f18c50">合肥威尔汉森智能科技有限公司</h4>
+            <h2 class="animated bounceInLeft csscd0daf66f18c50">科技智能未来</h2>
+            <h1 class="animated bounceInRight csscd0cd449318c50">威尔汉森智能指纹锁</h1>
+            <h4 class="animated bounceInLeft csscd0daf66f18c50">合肥威尔汉森智能科技有限公司</h4>
         </div>
     </header>
 
-    <section class="wrap cut_wrap">
+    <section class="wrap cut_wrap wow animated slideInUp">
         <div>
             <p>
                 <i class="cut_line"></i>
@@ -85,7 +85,7 @@
     </section>
 
     <!-- Advantage -->
-    <section class="wrap advantage_wrap csscd0cd449318c50">
+    <section class="wrap advantage_wrap wow animated slideInUp csscd0cd449318c50">
         <div class="advantage_row ">
             <h1 class="subtitle">因为专业 锁以放心</h1>
         </div>
@@ -93,15 +93,15 @@
             <p>5A级钻化触摸屏，最新、最先进的密码防窥技术；最新键盘采用苹果手机级别触控原理； 密码 触摸屏优化等核心，<br>科技铸就品质，彰显身份地位的完美诠释。</p>
         </div>
         <div class="advantage_row">
-            <figure>
+            <figure class="wow animated zoomIn" data-wow-delay="0s">
                 <img src="./image/pic_01.png" alt="">
                 <figcaption>0.5s光学识别指纹读头，响应速度快打开</figcaption>
             </figure>
-            <figure>
+            <figure class="wow animated zoomIn" data-wow-delay="0.3s">
                 <img src="./image/pic_02.png" alt="">
                 <figcaption>滑盖自动唤醒平时处于休眠状态70%</figcaption>
             </figure>
-            <figure>
+            <figure class="wow animated zoomIn" data-wow-delay="0.6s">
                 <img src="./image/pic_03.png" alt="">
                 <figcaption>多门搭配安装90%适用，与门之间完美搭配</figcaption>
             </figure>
@@ -109,7 +109,7 @@
     </section>
 
     <!-- Data -->
-    <section class="wrap data_wrap">
+    <section class="wrap data_wrap ">
         <div class="data_row">
             <img src="./image/pic_fingerprint.png" alt="fingerprint">
         </div>
@@ -312,6 +312,14 @@
         </div>
     </footer>
 
+    <script src="./js/wow.min.js"></script>
+    <script>
+        var wow = new WOW ({
+            offset:       75,          // distance to the element when triggering the animation (default is 0)
+            mobile:       false,       // trigger animations on mobile devices (default is true)
+        });
+        wow.init();    
+    </script>
 </body>
 
 </html>
