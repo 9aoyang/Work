@@ -371,7 +371,7 @@ footer {
 .data_row:nth-of-type(2) {
   text-align: center;
   justify-content: space-around;
-  margin: 0 12%;
+  margin: 0 12% 36px 12%;
 }
 
 .data_row:nth-of-type(2)>div h1 {
