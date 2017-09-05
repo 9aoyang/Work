@@ -11,12 +11,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href='http://cdn.webfont.youziku.com/webfonts/nomal/101456/47086/59a4c5a0f629d815acd25cd0.css' rel='stylesheet' type='text/css'
-    />
-    <link href='http://cdn.webfont.youziku.com/webfonts/nomal/101456/47065/59a4c922f629d815acd25cd3.css' rel='stylesheet' type='text/css'
-    />
-    <link href='http://cdn.webfont.youziku.com/webfonts/nomal/101456/35481/59a4ca0df629d815acd25cd4.css' rel='stylesheet' type='text/css'
-    />
+    <link href='http://cdn.webfont.youziku.com/webfonts/nomal/101456/47086/59a4c5a0f629d815acd25cd0.css' rel='stylesheet' type='text/css' />
+    <link href='http://cdn.webfont.youziku.com/webfonts/nomal/101456/47065/59a4c922f629d815acd25cd3.css' rel='stylesheet' type='text/css' />
+    <link href='http://cdn.webfont.youziku.com/webfonts/nomal/101456/35481/59a4ca0df629d815acd25cd4.css' rel='stylesheet' type='text/css' />
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.css">
 
@@ -30,50 +27,45 @@
     <!-- Navbar -->
     <nav class="wrap nav_wrap">
         <a class="logo" href="#">Logo</a>
-        <ul class="csscd0cd449318c50">
+        <ul>
             <li>
                 <a href="./index.html">
-                    <i class="menu_line"></i>
-                    首页
+                    <i class="menu_line"></i> 首页
                 </a>
             </li>
             <li>
                 <a href="#">
-                    <i class="menu_line"></i>
-                    产品中心
+                    <i class="menu_line"></i> 产品中心
                 </a>
             </li>
             <li>
                 <a href="#">
-                    <i class="menu_line"></i>
-                    资讯动态
+                    <i class="menu_line"></i> 资讯动态
                 </a>
             </li>
             <li>
                 <a href="./joinus.html">
-                    <i class="menu_line"></i>
-                    加盟合作
+                    <i class="menu_line"></i> 加盟合作
                 </a>
             </li>
             <li>
                 <a href="#">
-                    <i class="menu_line"></i>
-                    公司简介
+                    <i class="menu_line"></i> 公司简介
                 </a>
             </li>
         </ul>
     </nav>
 
     <!-- Partner -->
-    <section class="wrap partner_wrap csscd0cd449318c50">
+    <section class="wrap partner_wrap">
         <div class="partner_row">
             <div class="join">
                 <h4>加盟合作</h4>
-                <ul>
-                    <li><a href="#">客户类别</a></li>
-                    <li><a href="#">代理商资质政策</a></li>
-                    <li><a href="#">代理商回报和支持</a></li>
-                    <li><a href="#">意向合作申请表下载</a></li>
+                <ul id="menu">
+                    <li id="client" class="selected"><a href="#">客户类别</a></li>
+                    <li id="aptitude"><a href="#">代理商资质政策</a></li>
+                    <li id="support"><a href="#">代理商回报和支持</a></li>
+                    <li id="form"><a href="#">意向合作申请表下载</a></li>
                 </ul>
             </div>
             <div class="contact">
@@ -95,28 +87,92 @@
                 </form>
             </div>
         </div>
-        <div class="partner_row csscd0cd449318c50">
-            <figure>
-                <img src="./image/pic_title.png" alt="partner">
-                <figcaption>
-                    <p>合肥威尔汉森智能科技有限公司 作为“RELHANSN威尔汉森”品牌、产品、专利的唯一合法拥有人，现面向全国 范围内广泛招商，发展以城市代理商为主的战略合作伙伴。
-                        <br> 城市代理商————是指对天防指纹锁产品及销售管理模式认可，有市场开拓能力，经培训后对产品的操作及维护 有详细的了解，具备一定的售后服务能力，经威尔汉森公司授权，在指定区域内合法销售威尔汉森品牌指纹锁
-                        产品，并且服从公司安排，对其经销行为负责的产业。
-                    </p>
-                </figcaption>
-            </figure>
-            <h3>威尔汉森用户类别</h3>
-            <dl>
-                <dt>1) 经销商</dt>
-                <dd>经销威尔汉森指纹锁产品的商家，没有订货要求，同时也无法享受代理商的权益。</dd>
-                <dt>2) 一级代理商</dt>
-                <dd>代理销售威尔汉森指纹锁产品，享受代理价和其他代理商权益，由威尔汉森科技公司授权。</dd>
-                <dt>3) 独家代理商</dt>
-                <dd>威尔汉森科技公司产品的市场分销策略考虑，原则上只授权最具优势的一个代理商为城市独家代理商，确保代理商拥有足够的市场空间和丰厚的利润</dd>
-                <dt>4) 战略伙伴</dt>
-                <dd>独家代理商中极为优秀的精锐，威尔汉森科技最顶级的渠道合作伙伴，基本资质要求和独家类似，但威尔汉森对其支持更大、合作更深、扶持更透，盈利更为丰厚，享有路虎配车特权。</dd>
-            </dl>
+        <div class="partner_row">
+            <div class="content-wrap-1 selected">
+                <figure>
+                    <img src="./image/pic_title.png" alt="partner">
+                    <figcaption>
+                        <p>合肥威尔汉森智能科技有限公司 作为“RELHANSN威尔汉森”品牌、产品、专利的唯一合法拥有人，现面向全国范围内广泛招商，发展以城市代理商为主的战略合作伙伴。
+                            <br>城市代理商————是指对天防指纹锁产品及销售管理模式认可，有市场开拓能力，经培训后对产品的操作及维护 有详细的了解，具备一定的售后服务能力，经威尔汉森公司授权，在指定区域内合法销售威尔汉森品牌指纹锁 产品，并且服从公司安排，对其经销行为负责的产业。
+                        </p>
+                    </figcaption>
+                </figure>
+                <h3>客户类别</h3>
+                <dl>
+                    <dt>1) 经销商</dt>
+                    <dd>经销威尔汉森指纹锁产品的商家，没有订货要求，同时也无法享受代理商的权益。</dd>
+                    <dt>2) 一级代理商</dt>
+                    <dd>代理销售威尔汉森指纹锁产品，享受代理价和其他代理商权益，由威尔汉森科技公司授权。</dd>
+                    <dt>3) 独家代理商</dt>
+                    <dd>威尔汉森科技公司产品的市场分销策略考虑，原则上只授权最具优势的一个代理商为城市独家代理商，确保代理商拥有足够的市场空间和丰厚的利润</dd>
+                    <dt>4) 战略伙伴</dt>
+                    <dd>独家代理商中极为优秀的精锐，威尔汉森科技最顶级的渠道合作伙伴，基本资质要求和独家类似，但威尔汉森对其支持更大、合作更深、扶持更透，盈利更为丰厚，享有路虎配车特权。</dd>
+                </dl>
+            </div>
+
+            <div class="content-wrap-2">
+                <h3>代理商资质政策</h3>
+                <table>
+                    <tr>
+                        <th>代理商级别</th>
+                        <th>基本资质要求</th>
+                    </tr>
+                    <tr>
+                        <td>一级代理商</td>
+                        <td>可以独立承担民事责任的个人或企业单位，应当拥有固定的办公经营地点或服务场所。 具有相应的资金实力及其他固定资产和社会关系资源。 认同天防科技公司的企业文化、产品和各项营销政策。
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>独家代理商战略伙伴</td>
+                        <td>须为合法企业法人资质。 须拥有100㎡以上的自主经营店面。 在意向代理城市内，拥有建材、五金类销售网店不低于20家。 须拥有5人以上的销售团队，2人以上的安装售后团队。 年度销售不得少于2个工程客户。 认同威尔汉森科技公司的企业文化、产品和各项营销政策。
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="content-wrap-3">
+                <h3>代理商资质政策</h3>
+                <h4>1、三大回报渠道</h4>
+                <ul>
+                    <li>销售利润</li>
+                    <li>年度返利</li>
+                    <li>优秀经销商奖励</li>
+                </ul>
+                <h4>2、五大保障呵护低风险高回报</h4>
+                <dl>
+                    <dt>研发保障</dt>
+                    <dd>威尔汉森拥有行业领先的研发力量，保障在防盗门专用指纹锁领域研发水准持续领先。</dd>
+                    <dt>质量保障</dt>
+                    <dd>防盗、防撬、抗盐、防腐、防水、抗震、老化、耐用、耐高温等权威认证，保障品质优良。</dd>
+                    <dt>低库存保障</dt>
+                    <dd>威尔汉森不采用压货手段，全部为订单式销售，最大限度降低经销商库存。</dd>
+                    <dt>低风险保障</dt>
+                    <dd>威尔汉森提供工程信息、协助招商、终端促销，广告报销等保障措施，将经销商风险降至最低。</dd>
+                    <dt>高利润保障</dt>
+                    <dd>最高达300%的零售利润，还有高额返利、奖励，保障经销商远高于其他品牌的回报。</dd>
+                </dl>
+                <h4>3、八大支持</h4>
+                <div>
+                    <ul>
+                        <li>营销培训支持系统 —— 一对一营销培训、技术培训，获利同时掌控行业发展态势</li>
+                        <li>市场推广支持系统 —— 依托威尔汉森科技强大实力背景，市场推广保证有力，品牌信誉可靠保障</li>
+                        <li>市场保障支持系统 —— 完善的价格保障、区域保障、渠道保障，切实保障渠道商利益</li>
+                        <li>有效信息支持系统 —— 确凿有效的工程信息、防盗门厂信息、相关渠道信息，无条件提供给渠道商伙伴</li>
+                        <li>广告传播支持系统 —— 强大的营销物料支持、现金广告费报销，确保市场快速启动</li>
+                        <li>主动管理支持系统 —— 奖励与惩罚并持，动态制定营销方案，保障渠道伙伴稳定获利</li>
+                        <li>常态人员支持系统 —— 经验丰富的市场代表常驻区域，常态化协助渠道商市场开发</li>
+                        <li>技术保障支持系统 —— 国际领先的研发实力，数十位教授、博士确保性能始终领先</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="content-wrap-4">
+                <h3>意向合作申请表下载</h3>
+                <a href="/upload/意向合作申请表.doc">附件：意向合作申请表下载</a>
+            </div>
         </div>
+
+
     </section>
 
     <!-- Footer -->
@@ -148,7 +204,8 @@
             <h4 csscd0cd449318c50>&copy北京皓辰网域网络信息技术有限公司</h4>
         </div>
     </footer>
-
+    <script>
+    </script>
 </body>
 
 </html>
